@@ -1,18 +1,6 @@
 GenericEntity : "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et" {
  coords 121.397 1 135.147
 }
-GenericEntity : "{0C923757B8B8306B}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeTriple_S_USSR_01.et" {
- coords 127.576 1 124.938
- {
-  StaticModelEntity {
-   ID "5E64B54F57833D69"
-   coords 0 0 0
-  }
- }
-}
-GenericEntity : "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" {
- coords 120.619 1 133.257
-}
 GenericEntity : "{63DA21D3BBFFE518}Prefabs/Props/Military/AmmoBoxes/FIA/EquipmentBoxWooden_Launcher_01_FIA.et" {
  components {
   SCR_SoundDataComponent "{5C53391603B5CF41}" {
@@ -36,10 +24,7 @@ GenericEntity : "{63DA21D3BBFFE518}Prefabs/Props/Military/AmmoBoxes/FIA/Equipmen
    Enabled 1
   }
  }
- coords 126.326 1 131.938
-}
-GenericEntity : "{6C15A3726729087D}Prefabs/Weapons/Explosives/M1A2_Bangalore/M1A2_Bangalore.et" {
- coords 124.009 1 131.477
+ coords 121.444 1 133.875
 }
 $grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Triple.et" {
  {
@@ -47,19 +32,215 @@ $grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/
    Hierarchy "{5E64B54D0EE72D6B}" {
    }
   }
-  coords 129.613 0 124.474
+  coords 130.614 0 121.735
  }
  {
   components {
    Hierarchy "{5E64B54D0EE72D6B}" {
    }
   }
-  coords 131.932 0 124.329
+  coords 130.594 0 118.416
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 130.801 0 134.637
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 130.745 0 128.115
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 130.765 0 131.434
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 130.606 0 115.28
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 130.55 0 108.758
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 130.57 0 112.077
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 130.8 0 124.704
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 134.132 0 121.395
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 134.112 0 118.076
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 134.319 0 134.297
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 134.263 0 127.775
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 134.283 0 131.094
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 134.124 0 114.94
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 134.068 0 108.418
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 134.088 0 111.737
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 134.318 0 124.364
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 137.898 0 121.64
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 137.878 0 118.321
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 138.085 0 134.542
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 138.029 0 128.02
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 138.049 0 131.339
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 137.89 0 115.185
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 137.834 0 108.663
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 137.854 0 111.982
+ }
+ {
+  components {
+   Hierarchy "{5E64B54D0EE72D6B}" {
+   }
+  }
+  coords 138.084 0 124.609
  }
 }
-GenericEntity : "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et" {
- coords 123.222 1 132.291
-}
-GenericEntity : "{D182DCDD72BF7E34}Prefabs/Weapons/MachineGuns/M60/MG_M60.et" {
- coords 125.582 1 132.943
+$grp GenericEntity : "{E7887B6E2B9E8F38}PrefabsEditable/EffectsModules/Mine/BaseEffectModule_MineField_Small.et" {
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 7.2
+     }
+    }
+   }
+  }
+  coords 134.629 1.924 120.791
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_sModuleEntityPrefab "{EC2A70F844008936}Prefabs/Weapons/Explosives/Mine_M14/Mine_M14_EffectModuleEntity.et"
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 7.2
+     }
+    }
+   }
+  }
+  coords 134.629 1.924 120.791
+ }
 }

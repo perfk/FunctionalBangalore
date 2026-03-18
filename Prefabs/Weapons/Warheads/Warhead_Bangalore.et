@@ -11,6 +11,7 @@ GenericEntity : "{1126AD9D919F82FF}Prefabs/Weapons/Warheads/Warhead_Explosive_HE
     ExplosionDamageContainer "{5F10B4D8DC73BB97}" : "{04BC445FB74FDAA9}Prefabs/Weapons/Core/Damage/ExplosionContainer_Base.conf" {
      ExplosionEffects {
       BaseExplosionDamage "{5D8D1EB3EF9D02C6}" {
+       DamageDistance 12
       }
       BaseExplosionDamage "{61DAF5E24D9CA168}" {
        DamageValue 1000
