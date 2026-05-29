@@ -27,9 +27,9 @@
 	
 	
 	
-		bool HasItem(IEntity pUserEntity, ResourceName inventory_object)
+		bool HasItem(IEntity pUserEntity, ResourceName itemPrefab)
     	{
-        	if (!pUserEntity || inventory_object.IsEmpty())
+        	if (!pUserEntity || itemPrefab.IsEmpty())
             	return false;
         
         // Get the inventory storage manager from the player
@@ -58,14 +58,14 @@
 	
                 
             // Compare the item's prefab resource name with the one we're looking for
-            if (prefabData.GetPrefabName() == inventory_object)
+            if (prefabData.GetPrefabName() == itemPrefab)
             {
-               // Print("Item found in inventory: " + inventory_object, LogLevel.NORMAL);
+               // Print("Item found in inventory: " + itemPrefab, LogLevel.NORMAL);
                 return true;
             }
         }
         
-        //Print("Item NOT found in inventory: " + inventory_object, LogLevel.WARNING);
+        //Print("Item NOT found in inventory: " + itemPrefab, LogLevel.WARNING);
         return false;
     	}
 	
